@@ -13,3 +13,132 @@ světle šedá: #f0f0f0
 */
 
 /* --- pod tuto čáru piš svoje CSS --- */
+body {
+    font-family: "PT Serif", serif;
+}
+
+h2 {
+    font-style: italic;
+    margin: 25px 0 30px 0;
+}
+
+h3 {
+    font-style: italic;
+    color: #c5308a;
+    margin: 10px 0 10px 0;
+}
+
+p {
+    margin-bottom: 10px;
+}
+
+/* Hlavicka */
+.navbar-dark .navbar-brand {
+    color: #c5308a;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+    color: white;
+}
+
+/* Obrazek */
+.container-fluid {
+    padding: 0;
+}
+
+/* Akce, novinky */
+#akce {
+    color: white;
+    background-color: #c5308a;
+}
+
+#akce h2 {
+    font-weight: 700;
+}
+
+/* Kadernice */
+#kadernice {
+    background-color: #f0f0f0;
+}
+
+#kadernice img {
+    max-width: 50%;
+    border-radius: 50%;
+}
+
+#kadernice h3 {
+    color: #c5308a;
+}
+
+#kadernice p {
+    margin-bottom: 40px;
+}
+
+/* Sluzby */
+#sluzby h3 {
+    margin-top: 0;
+}
+
+#sluzby table {
+    margin-bottom: 40px;
+}
+
+/* Reference / Rekli o nas */
+#reference {
+    background-color: #f0f0f0;
+}
+
+#reference img {
+    border-radius: 50%;
+    width: 100px;
+}
+
+/* Fotogalerie */
+#fotogalerie img {
+    filter: grayscale(100%);
+}
+
+/* Kontakt */
+#kontakty h3 {
+    margin-top: 0;
+}
+
+#kontakty {
+    background-color: #f0f0f0;
+}
+
+#kontakty .table {
+    background-color: white;
+}
+
+#kontakty a {
+    color:#c5308a;
+    text-decoration: none;
+}
+
+#kontakty .container {
+    padding-bottom: 40px;
+}
+
+/* Paticka */
+#paticka .row {
+margin-top: 10px;
+}
+
+#paticka a {
+    color:#c5308a;
+    text-decoration: none;
+}
+
+#paticka ul {
+    list-style: none;
+}
+
+#paticka li {
+    list-style: none;
+    margin-right: 10px;
+}
+
+#odkazy p {
+    font-size: 12px;
+}
